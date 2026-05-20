@@ -1,0 +1,290 @@
+{
+  "run_id": "run-1779242617699",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "generator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Inspirez-vous pour cuisiner local et de saison avec des suggestions créatives et faciles à réaliser.",
+    "notes": "Créez des recettes personnalisées en sélectionnant vos ingrédients de saison disponibles dans les marchés français, avec des instructions étape par étape.\nFocus sur l'inspiration culinaire, la saisonnalité et la réduction du gaspillage. Thème : L'aspect",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "generator",
+      "tool"
+    ],
+    "forced_design_theme": "mechanical-botanical",
+    "forced_structure_preset": "stacked-spotlight",
+    "site_idea_title": "Générateur de Recettes de Cuisine Locales à Base d'Ingrédients de Saison",
+    "site_idea_summary": "Créez des recettes personnalisées en sélectionnant vos ingrédients de saison disponibles dans les marchés français, avec des instructions étape par étape."
+  },
+  "site_spec": {
+    "slug": "generateur-de-recettes-de-cuisine-locales-a-bas-4499fc26",
+    "theme": {
+      "name": "Mechanical Botanical",
+      "slug": "mechanical-botanical",
+      "eyebrow": "Organic Systems",
+      "family": "mechanical-botanical",
+      "moods": [
+        "organic",
+        "futuristic",
+        "balanced",
+        "fresh"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "eco tools",
+        "wellness tools",
+        "sustainability",
+        "travel tools",
+        "consumer utility"
+      ],
+      "keywords": [
+        "organic",
+        "tech",
+        "botanical",
+        "iridescent",
+        "fresh"
+      ],
+      "token_index": [
+        "balanced",
+        "botanical",
+        "calculator",
+        "consumer",
+        "eco",
+        "fresh",
+        "futuristic",
+        "generator",
+        "iridescent",
+        "mechanical",
+        "organic",
+        "sustainability",
+        "systems",
+        "tech",
+        "tool",
+        "tools",
+        "travel",
+        "utility",
+        "wellness"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Manrope\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "22px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #081c15 0%, #1b4332 42%, #c7f9cc 100%)",
+        "surface": "rgba(8, 28, 21, 0.74)",
+        "surface_border": "rgba(128,237,153,0.18)",
+        "text": "#f1fff4",
+        "muted": "#b7e4c7",
+        "accent": "#80ed99",
+        "accent_alt": "#72ddf7",
+        "hero_glow": "rgba(128, 237, 153, 0.18)",
+        "button_text": "#062012",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 88px rgba(4, 12, 8, 0.34)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Stacked Spotlight",
+      "slug": "stacked-spotlight",
+      "hero_variant": "stacked",
+      "proof_variant": "steps",
+      "section_order": [
+        "proof",
+        "seo",
+        "features",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "spotlight",
+      "moods": [
+        "editorial",
+        "focused",
+        "premium"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "premium services",
+        "planning",
+        "renovation",
+        "advice"
+      ],
+      "keywords": [
+        "spotlight",
+        "stacked",
+        "story",
+        "premium"
+      ],
+      "token_index": [
+        "advice",
+        "calculator",
+        "editorial",
+        "faq",
+        "features",
+        "focused",
+        "generator",
+        "planning",
+        "premium",
+        "proof",
+        "renovation",
+        "seo",
+        "services",
+        "spotlight",
+        "stacked",
+        "steps",
+        "story",
+        "tool"
+      ]
+    },
+    "render_direction": "campaign-slab",
+    "render_direction_name": "Campaign Slab",
+    "page_blueprint": "magazine-fold",
+    "page_blueprint_name": "Magazine Fold",
+    "title": "Générateur de Recettes de Cuisine Locales à Base d'Ingrédients de Saison",
+    "tagline": "Composez Votre Inspiration Culinaire",
+    "description": "Créez des recettes personnalisées en sélectionnant vos ingrédients de saison disponibles dans les marchés français, avec des instructions étape par étape.",
+    "feature_prefix": "Bloc",
+    "action": "Générer le document",
+    "cta_primary": "Générer ma Recette",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "name",
+        "label": "Nom ou entreprise",
+        "type": "text",
+        "placeholder": "Studio Horizon",
+        "weight": 1.0
+      },
+      {
+        "id": "goal",
+        "label": "Objectif du document",
+        "type": "text",
+        "placeholder": "confirmation de demande",
+        "weight": 1.0
+      },
+      {
+        "id": "details",
+        "label": "Détails utiles",
+        "type": "text",
+        "placeholder": "date, montant, référence",
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Campaign Slab",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Brouillon généré",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Campaign Slab",
+      "Générer ma Recette",
+      "Brouillon généré",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Brouillon généré",
+    "result_unit": "",
+    "runtime_mode": "document_generator",
+    "page_variant": "showcase",
+    "faq_topic": "Générateur de Recettes de Cuisine Locales à Base d'Ingrédients de Saison",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Générateur de Recettes de Cuisine Locales à Base d'Ingrédients de Saison ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Générateur de Recettes de Cuisine Locales à Base d'Ingrédients de Saison et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Générateur de Recettes de Cuisine Locales à Base d&#x27;Ingrédients de Saison | Composez Votre Inspiration Culinaire</title>\n    <meta name=\"description\" content=\"Créez des recettes personnalisées en sélectionnant vos ingrédients de saison disponibles dans les marchés français, avec des instructions étape par étape.\">\n    <style>\n        :root {\n            --color-primary: #28a745; /* Green for organic/fresh */\n            --color-secondary: #0a3d62; /* Dark blue for futuristic/machined */\n            --color-background: #1a1a1a; /* Dark background */\n            --color-text: #e0e0e0; /* Light text */\n            --color-border: #444; /* Grey for borders */\n            --color-accent: #ffc107; /* Yellow for highlights */\n            --font-family-primary: 'Helvetica Neue', Arial, sans-serif;\n            --font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n        }\n\n        body {\n            font-family: var(--font-family-primary);\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: var(--color-background);\n            color: var(--color-text);\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n            overflow-x: hidden;\n        }\n\n        header {\n            width: 100%;\n            background-color: var(--color-secondary);\n            color: var(--color-text);\n            padding: 3rem 0;\n            text-align: center;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n        }\n\n        header h1 {\n            font-size: 2.8em;\n            margin-bottom: 0.5rem;\n            color: var(--color-accent);\n            text-shadow: 0 0 10px rgba(255, 193, 7, 0.3);\n        }\n\n        header p {\n            font-size: 1.2em;\n            max-width: 800px;\n            margin: 0 auto;\n            opacity: 0.9;\n        }\n\n        .container {\n            width: 90%;\n            max-width: 1200px;\n            margin: 2rem auto;\n            padding: 2rem;\n            background-color: #2a2a2a;\n            border: 1px solid var(--color-border);\n            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);\n            border-radius: 8px;\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 2rem;\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                grid-template-columns: 2fr 1fr;\n            }\n        }\n\n        section {\n            padding: 2rem 0;\n            border-bottom: 1px dashed var(--color-border);\n        }\n\n        section:last-of-type {\n            border-bottom: none;\n        }\n\n        h2 {\n            color: var(--color-primary);\n            font-size: 2em;\n            margin-bottom: 1.5rem;\n            text-align: center;\n        }\n\n        h3 {\n            color: var(--color-accent);\n            font-size: 1.5em;\n            margin-bottom: 1rem;\n        }\n\n        .tool-section {\n            background-color: #333;\n            padding: 2.5rem;\n            border-radius: 8px;\n            border: 1px solid var(--color-border);\n            grid-column: 1 / -1; /* Occupy full width on small screens */\n        }\n\n        @media (min-width: 768px) {\n            .tool-section {\n                grid-column: 1 / 2; /* Left column on larger screens */\n            }\n        }\n\n        form {\n            display: flex;\n            flex-direction: column;\n            gap: 1.5rem;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 0.5rem;\n            color: var(--color-text);\n            font-weight: bold;\n        }\n\n        textarea, select, input[type=\"text\"] {\n            width: calc(100% - 20px);\n            padding: 12px;\n            border: 1px solid var(--color-border);\n            background-color: #444;\n            color: var(--color-text);\n            border-radius: 4px;\n            font-family: var(--font-family-primary);\n            font-size: 1em;\n        }\n\n        textarea {\n            resize: vertical;\n            min-height: 100px;\n        }\n\n        button {\n            background-color: var(--color-primary);\n            color: var(--color-secondary);\n            padding: 15px 25px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: bold;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            text-transform: uppercase;\n        }\n\n        button:hover {\n            background-color: #3cb859;\n            transform: translateY(-2px);\n        }\n\n        .result-section {\n            background-color: #333;\n            padding: 2.5rem;\n            border-radius: 8px;\n            border: 1px solid var(--color-border);\n            grid-column: 1 / -1; /* Occupy full width on small screens */\n        }\n\n        @media (min-width: 768px) {\n            .result-section {\n                grid-column: 2 / 3; /* Right column on larger screens */\n            }\n        }\n\n        .result-content {\n            white-space: pre-wrap;\n            font-family: var(--font-family-mono);\n            background-color: #1c1c1c;\n            padding: 1.5rem;\n            border-radius: 4px;\n            border: 1px dashed var(--color-border);\n            overflow-x: auto;\n            max-height: 500px;\n            color: #d0d0d0;\n        }\n\n        .callout {\n            background-color: #222;\n            border-left: 5px solid var(--color-accent);\n            padding: 1.5rem;\n            margin-top: 2rem;\n            border-radius: 4px;\n        }\n\n        .callout p {\n            margin: 0;\n            color: var(--color-text);\n        }\n\n        .info-card {\n            background-color: #222;\n            padding: 1.5rem;\n            border-radius: 8px;\n            border: 1px solid var(--color-border);\n            margin-bottom: 1.5rem;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n        }\n\n        .info-card h3 {\n            color: var(--color-primary);\n            margin-top: 0;\n        }\n\n        footer {\n            width: 100%;\n            background-color: var(--color-secondary);\n            color: var(--color-text);\n            text-align: center;\n            padding: 2rem 0;\n            margin-top: 3rem;\n            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);\n        }\n\n        footer p {\n            margin: 0.5rem 0;\n        }\n\n        .seo-section {\n            background-color: #1a1a1a;\n            padding: 3rem 5%;\n            margin-top: 2rem;\n            color: #ccc;\n            text-align: center;\n        }\n\n        .seo-section h2 {\n            color: var(--color-primary);\n            font-size: 2.2em;\n            margin-bottom: 1.5rem;\n        }\n\n        .seo-section p {\n            max-width: 900px;\n            margin: 1rem auto;\n            line-height: 1.8;\n            text-align: justify;\n        }\n\n        .seo-section ul {\n            list-style: none;\n            padding: 0;\n            margin: 1.5rem auto;\n            max-width: 900px;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            gap: 10px;\n        }\n\n        .seo-section li {\n            background-color: #2a2a2a;\n            padding: 8px 15px;\n            border-radius: 20px;\n            border: 1px solid var(--color-border);\n            font-size: 0.9em;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://generateur-de-recettes-de-cuisine-locales-a-bas-4499fc26.onrender.com\">\n    <meta property=\"og:title\" content=\"Générateur de Recettes de Cuisine Locales à Base d&#x27;Ingrédients de Saison\">\n    <meta property=\"og:description\" content=\"Créez des recettes personnalisées en sélectionnant vos ingrédients de saison disponibles dans les marchés français, avec des instructions étape par étape.\">\n    <meta property=\"og:url\" content=\"https://generateur-de-recettes-de-cuisine-locales-a-bas-4499fc26.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Générateur de Recettes de Cuisine Locales à Base d'Ingrédients de Saison\", \"description\": \"Créez des recettes personnalisées en sélectionnant vos ingrédients de saison disponibles dans les marchés français, avec des instructions étape par étape.\", \"url\": \"https://generateur-de-recettes-de-cuisine-locales-a-bas-4499fc26.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"generateur-de-recettes-de-cuisine-locales-a-bas-4499fc26\" data-runtime-mode=\"document_generator\">\n    <header>\n        <h1>L'Aspect : Votre Générateur de Recettes Locales et de Saison</h1>\n        <p>Découvrez l'art de cuisiner avec les trésors de nos marchés. Créez des recettes personnalisées, faciles à suivre, pour transformer vos ingrédients de saison en plats inoubliables. Réduisez le gaspillage, inspirez-vous de la nature.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"tool-section\">\n            <h2>Composez Votre Inspiration Culinaire</h2>\n            <p>Sélectionnez les ingrédients que vous avez sous la main ou que vous venez d'acheter sur le marché. \"L'Aspect\" vous proposera des idées de recettes créatives et adaptées à la saison.</p>\n            <form id=\"tool-form\">\n                <div>\n                    <label for=\"saison\">Quelle est la saison principale pour ces ingrédients ?</label>\n                    <select id=\"saison\" name=\"saison\" required>\n                        <option value=\"printemps\">Printemps</option>\n                        <option value=\"ete\">Été</option>\n                        <option value=\"automne\">Automne</option>\n                        <option value=\"hiver\">Hiver</option>\n                        <option value=\"tout\">Toute l'année</option>\n                    </select>\n                </div>\n                <div>\n                    <label for=\"ingredients\">Vos ingrédients (séparés par des virgules, ex: tomates, courgettes, basilic) :</label>\n                    <textarea id=\"ingredients\" name=\"ingredients\" rows=\"4\" placeholder=\"Ex: carottes, poireaux, pommes de terre, poulet, thym\" required></textarea>\n                </div>\n                <div>\n                    <label for=\"type_plat\">Type de plat souhaité (facultatif) :</label>\n                    <input type=\"text\" id=\"type_plat\" name=\"type_plat\" placeholder=\"Ex: Soupe, salade, plat principal, dessert...\">\n                </div>\n                <div>\n                    <label for=\"contraintes\">Restrictions alimentaires ou préférences (facultatif) :</label>\n                    <input type=\"text\" id=\"contraintes\" name=\"contraintes\" placeholder=\"Ex: Végétarien, sans gluten, rapide à faire, pour enfants...\">\n                </div>\n                <button type=\"submit\" id=\"tool-submit\">Générer ma Recette</button>\n            </form>\n            <div class=\"callout\">\n                <p>💡 <strong>Astuce Locavore :</strong> Cuisiner avec des produits de saison, c'est soutenir les producteurs locaux et bénéficier de saveurs incomparables. Réduisez votre empreinte carbone et découvrez de nouvelles inspirations !</p>\n            </div>\n        </div>\n\n        <div class=\"result-section\">\n            <h2>Votre Recette Personnalisée</h2>\n            <p>Votre inspiration culinaire prend forme ici. Découvrez les suggestions préparées par \"L'Aspect\" pour vous.</p>\n            <div id=\"tool-result\" class=\"result-content\">\n                <p id=\"result-detail\">Les recettes générées apparaîtront ici. Essayez de saisir quelques ingrédients !</p>\n            </div>\n            <div class=\"callout\" data-affiliate-slot=\"recipe-book-promo\" style=\"margin-top: 2rem;\">\n                <p>📚 <strong>Envie d'aller plus loin ?</strong> Explorez notre sélection de livres de recettes dédiés à la cuisine française et de saison. Des idées pour toutes vos envies gourmandes !</p>\n            </div>\n        </div>\n\n        <section style=\"grid-column: 1 / -1;\">\n            <h2>Pourquoi Cuisiner de Saison et Local ?</h2>\n            <div class=\"info-card\">\n                <h3>Saveur Optimale</h3>\n                <p>Les fruits et légumes cueillis à maturité, au bon moment de leur cycle naturel, sont gorgés de saveurs et de nutriments. Leur goût est incomparablement meilleur que celui des produits forcés ou importés.</p>\n            </div>\n            <div class=\"info-card\">\n                <h3>Impact Environnemental Réduit</h3>\n                <p>En choisissant des produits locaux et de saison, vous diminuez les transports, la consommation d'énergie liée aux serres chauffées et au stockage. C'est un geste simple pour la planète.</p>\n            </div>\n            <div class=\"info-card\">\n                <h3>Soutien aux Producteurs Français</h3>\n                <p>Acheter local, c'est encourager l'économie de proximité et soutenir nos agriculteurs. Vous contribuez à maintenir des paysages ruraux vivants et une agriculture diversifiée.</p>\n            </div>\n            <div class=\"info-card\">\n                <h3>Variété et Créativité</h3>\n                <p>Chaque saison apporte son lot de nouveautés, poussant à explorer une grande diversité d'ingrédients et à renouveler constamment son répertoire culinaire. \"L'Aspect\" est là pour vous y aider !</p>\n            </div>\n        </section>\n    </div>\n\n    <footer class=\"seo-section\">\n        <h2>Découvrez la Richesse de la Cuisine Française de Saison</h2>\n        <p>Notre générateur de recettes est votre allié pour une cuisine créative et responsable. Finis les repas monotones ! Grâce à \"L'Aspect\", transformez les produits de votre marché en plats exceptionnels. Que vous cherchiez une idée de <a href=\"#outil\">recette végétarienne de saison</a>, un <a href=\"#outil\">plat familial avec des légumes d'automne</a>, ou une <a href=\"#outil\">salade estivale rapide</a>, notre outil est là pour vous guider. Nous nous engageons à promouvoir une <a href=\"#outil\">alimentation locale</a>, saine et gourmande, en valorisant le patrimoine culinaire français et la richesse de ses terroirs. Rejoignez le mouvement du <a href=\"#outil\">locavore</a> et faites de chaque repas une célébration des saveurs naturelles.</p>\n        <p>Explorez des <a href=\"#outil\">idées de recettes zéro gaspillage</a>, apprenez à <a href=\"#outil\">cuisiner avec les fruits de saison</a> et les <a href=\"#outil\">légumes de saison</a>. Notre plateforme vous offre des <a href=\"#outil\">suggestions de recettes faciles</a>, des <a href=\"#outil\">instructions de cuisine étape par étape</a> pour toutes les occasions, du <a href=\"#outil\">repas de semaine rapide</a> au <a href=\"#outil\">menu de fête avec des produits du terroir</a>. Faites confiance à L'Aspect pour une cuisine inspirée et durable. Cuisine française, recettes du marché, manger local, manger sain, inspiration culinaire.</p>\n        <ul>\n            <li>Recettes Printemps</li>\n            <li>Recettes Été</li>\n            <li>Recettes Automne</li>\n            <li>Recettes Hiver</li>\n            <li>Cuisine Locale</li>\n            <li>Zéro Gaspillage</li>\n            <li>Idées Repas</li>\n            <li>Fruits et Légumes de Saison</li>\n            <li>Cuisine Facile</li>\n            <li>Recettes Végétariennes</li>\n            <li>Plats Familiaux</li>\n            <li>Gastronomie Française</li>\n        </ul>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const saison = document.getElementById('saison').value;\n            const ingredientsInput = document.getElementById('ingredients').value.trim();\n            const typePlat = document.getElementById('type_plat').value.trim();\n            const contraintes = document.getElementById('contraintes').value.trim();\n            const resultDiv = document.getElementById('tool-result');\n\n            if (!ingredientsInput) {\n                resultDiv.innerHTML = \"<p style='color: #ff6b6b;'>Veuillez entrer au moins un ingrédient pour générer une recette.</p>\";\n                return;\n            }\n\n            const ingredientsArray = ingredientsInput.split(',').map(item => item.trim()).filter(item => item !== '');\n\n            let recipeIdeas = [];\n\n            // Simple rule-based generation, mimicking different recipe outcomes\n            // This is a simplified example and would be more complex in a real AI context\n\n            const basePrompt = `Avec les ingrédients suivants: ${ingredientsArray.join(', ')}. Saison: ${saison}.`;\n            const optionalPrompt = `${typePlat ? `Type de plat: ${typePlat}.` : ''} ${contraintes ? `Contraintes: ${contraintes}.` : ''}`;\n\n            const fullPrompt = `${basePrompt} ${optionalPrompt}`.trim();\n\n            // Recipe generation logic (simplified)\n            let recipeTitle = \"Votre Création Culinaire L'Aspect\";\n            let recipeInstructions = [];\n\n            if (ingredientsArray.includes('tomates') && ingredientsArray.includes('basilic') && saison === 'ete') {\n                recipeTitle = \"Salade Caprese Twistée aux Tomates Anciennes\";\n                recipeInstructions.push(\"1. Lavez et coupez les tomates en rondelles ou en quartiers.\");\n                recipeInstructions.push(\"2. Disposez-les sur un plat avec des feuilles de basilic frais.\");\n                recipeInstructions.push(\"3. Ajoutez de la mozzarella de bufflonne coupée ou effilochée.\");\n                recipeInstructions.push(\"4. Arrosez généreusement d'huile d'olive de qualité et d'un filet de vinaigre balsamique.\");\n                recipeInstructions.push(\"5. Salez et poivrez. Servez frais.\");\n            } else if (ingredientsArray.includes('carottes') && ingredientsArray.includes('poireaux') && ingredientsArray.includes('pommes de terre') && saison === 'hiver') {\n                recipeTitle = \"Soupe Réconfortante de Légumes d'Hiver\";\n                recipeInstructions.push(\"1. Lavez, épluchez et coupez les carottes, poireaux et pommes de terre en morceaux.\");\n                recipeInstructions.push(\"2. Faites revenir un oignon haché dans une cocotte avec un peu d'huile d'olive.\");\n                recipeInstructions.push(\"3. Ajoutez les légumes et couvrez d'eau ou de bouillon. Salez, poivrez.\");\n                recipeInstructions.push(\"4. Laissez mijoter 20-25 minutes, jusqu'à ce que les légumes soient tendres.\");\n                recipeInstructions.push(\"5. Mixez la soupe jusqu'à obtenir une consistance lisse. Servez avec une touche de crème fraîche.\");\n            } else if (ingredientsArray.includes('poulet') && ingredientsArray.includes('pommes') && saison === 'automne') {\n                 recipeTitle = \"Poulet Cidre et Pommes, Façon Normande\";\n                 recipeInstructions.push(\"1. Coupez le poulet en morceaux (ou utilisez des cuisses/filets). Faites-les dorer dans une cocotte.\");\n                 recipeInstructions.push(\"2. Retirez le poulet. Dans la même cocotte, faites revenir des oignons émincés.\");\n                 recipeInstructions.push(\"3. Ajoutez des pommes coupées en quartiers et faites-les légèrement caraméliser.\");\n                 recipeInstructions.push(\"4. Remettez le poulet, déglacez avec du cidre brut et ajoutez un bouquet garni.\");\n                 recipeInstructions.push(\"5. Laissez mijoter à couvert pendant 30-40 minutes, jusqu'à ce que le poulet soit tendre. Servez avec du riz ou des pommes de terre.\");\n            }\n            else {\n                // Generic fallback recipe\n                recipeTitle = `Recette Spéciale L'Aspect avec ${ingredientsArray[0]}`;\n                recipeInstructions.push(`1. Commencez par préparer vos ingrédients : ${ingredientsArray.map(i => i.toLowerCase()).join(', ')}.`);\n                recipeInstructions.push(\"2. Adaptez la cuisson selon la nature des ingrédients et la saison : cuisson douce pour les légumes fragiles, rôtissage pour les plus robustes.\");\n                recipeInstructions.push(\"3. N'hésitez pas à expérimenter avec des herbes fraîches (thym, romarin, persil) et des épices pour relever les saveurs.\");\n                recipeInstructions.push(\"4. Pour un plat équilibré, pensez à combiner féculents (pommes de terre, riz, pâtes) et protéines (légumineuses, œufs, viande/poisson si désiré).\");\n                recipeInstructions.push(\"5. Dégustez votre création unique !\");\n                if (typePlat) recipeInstructions.unshift(`Suggestion pour un ${typePlat} :`);\n                if (contraintes) recipeInstructions.push(`(Note : tenez compte de vos contraintes \"${contraintes}\" lors de l'adaptation.)`);\n            }\n\n            resultDiv.innerHTML = `\n                <h3>${recipeTitle}</h3>\n                <h4>Ingrédients suggérés</h4>\n                <p>${ingredientsArray.join(', ')}</p>\n                <h4>Préparation</h4>\n                <ol>\n                    ${recipeInstructions.map(step => `<li>${step}</li>`).join('')}\n                </ol>\n                <p><em>Adapté pour la saison : ${saison.charAt(0).toUpperCase() + saison.slice(1)}.</em></p>\n                <p>Bon appétit !</p>\n            `;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
